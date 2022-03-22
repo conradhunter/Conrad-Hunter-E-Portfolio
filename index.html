@@ -42,12 +42,12 @@
                 <img src="Assets/trans.png" class="my-logo" alt="">
             </figure>
             <ul>
-                <a href="" class="nav__bar--links">About</a>
+                <a href="#aboutme" class="nav__bar--links">About</a>
                 <a href="#languages" class="nav__bar--links">Languages</a>
                 <a href="#projects" class="nav__bar--links">Projects</a>
-                <a href="" class="nav__bar--links contact-link">Contact</a>
+                <a href="#contact" class="nav__bar--links contact-link">Contact</a>
             </ul>
-        </nav>
+        </nav id="aboutme">
         <div class="about__me--container">
             <div class="about-me">
                 <figure>
@@ -73,12 +73,13 @@
             </figure>
         </div>
     </div>
-    <figure class="vertical-wave">
-        <img src="Assets/wave (2).svg" alt="">
-    </figure>
-    </section id="languages" >
+        <figure class="vertical-wave">
+            <img src="Assets/wave (2).svg" alt="">
+        </figure>
+    </section>
+    <section>
         <div class="languages">
-            <div>
+            <div id="languages">
                 <h1 class="h1__languages">This is my <span class="blue-text">technology stack</span></h1>
             </div>
             <div class="my-languages">
@@ -113,11 +114,12 @@
                 </figure>
             </div>   
         </div>
-        <div class="projects" id="projects">
+    </section>
+        <div class="projects">
             <figure class="undraw-imgs">
                 <img class="undraw-coder-2" src="Assets/codingdev2.svg" alt="">
             </figure>
-            <h1 class="projects-h1">Here are some of my projects</h1>
+            <h1 id="projects" class="projects-h1">Here are some of my <span class="blue-text">projects</span></h1>
             <div class="project-container">
                 <figure class="project-img">
                     <img src="Assets/placeholder.png" alt="">
@@ -133,18 +135,18 @@
                 </figure>
             </div>
         </div>
-        <div class="contact-me-container">
+        <div class="contact-me-container" id="contact">
             <div>
                 <h1 class="contact-me-h1">Contact me <span class="blue-text">here!</span></h1>
             </div>
             <div class="wrap-contents">
                 <form action="https://formsubmit.co/conrad@conradhunterdev.com" method="post" class="contact-form">
                     <label class="form-label" for="fName">First Name</label>
-                    <input type="text" id="fname" placeholder="Your First Name" required>
+                    <input type="text" id="fname" required>
                     <label class="form-label" for="lName">Last Name</label>
-                    <input type="text" id="lname" placeholder="Your Last Name" required>
+                    <input type="text" id="lname" required>
                     <label class="form-label" for="email">Email</label>
-                    <input type="text" id="email" placeholder="Your Email" required>
+                    <input type="text" id="email" required>
                     <label class="form-label" for="textArea">Leave a message</label>
                     <textarea name="message" id="contact-text-area" placeholder="Leave a message for me here!" cols="10" rows="10" required></textarea>
                     <button id="submit-button" type="submit">Submit</button>

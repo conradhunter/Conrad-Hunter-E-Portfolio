@@ -235,6 +235,7 @@ nav {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 66px;
 }
 
 .wrap-contents {
@@ -248,7 +249,7 @@ nav {
 .contact-form {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
     color: white;
 }
@@ -265,41 +266,42 @@ nav {
 #fname {
     padding: 8px 12px;
     margin: 8px 0;
-    border: 3px solid #0652e9;
     border-radius: 3px;
+    background-color: #bdbdbd;
 
 }
 
 #lname {
     padding: 8px 12px;
     margin: 8px 0;
-    border: 3px solid #0652e9;
     border-radius: 3px;
+    background-color: #bdbdbd;
 }
 
 #email {
     padding: 8px 12px;
     margin: 8px 0;
-    border: 3px solid #0652e9;
     border-radius: 5px;
+    background-color: #bdbdbd;
 }
 
 #contact-text-area {
     padding: 8px 12px;
     margin: 8px 0;
     height: 100px;
-    border: 3px solid #0652e9;
     border-radius: 3px;
+    background-color: #bdbdbd;
 }
 
 button {
-    width: 100px;
+    width: 150px;
+    height: 40px;
     background-color: #62e1e9;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
     transition: all ease-in-out 300ms;
-    border: 1px solid #0652e9;
+    margin: 8px 0;
 }
 
 button:hover {
@@ -336,6 +338,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    bottom: 0;
+    line-height: 0;
 }
 
 .footer-logo {
