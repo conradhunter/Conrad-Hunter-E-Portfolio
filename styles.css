@@ -607,5 +607,9 @@ button:hover {
         font-size: 12px;
     }
 
+    .nav__bar--links {
+        display: none;
+    }
+
 }
 
