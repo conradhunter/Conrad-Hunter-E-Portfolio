@@ -484,6 +484,7 @@ button:hover {
     margin: 0 100px;
 }
 
+
 /* MEDIA SMALL PHONES, TABLETS, LARGE SMARTHPONES */
 
 @media (max-width: 768px) {
@@ -571,6 +572,7 @@ button:hover {
 
     .wrap-contents {
         flex-direction: column;
+        align-items: center;
     }
 
     .contact-form {
@@ -612,7 +614,21 @@ button:hover {
         display: none;
     } 
 
+    .language-img {
+        max-width: 75px;
+        width: 100%;
+    }
 
+    .language__name {
+        font-size: 14px;
+        font-weight: 200;
+    }
 
+}
+
+@media (max-width: 866px) {
+    .not__contact {
+        display: none;
+    }
 }
 
