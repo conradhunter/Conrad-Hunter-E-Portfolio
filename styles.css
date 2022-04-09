@@ -655,3 +655,9 @@ button:hover {
     }
 }
 
+
+@media (max-width: 1274px) {
+    .socials {
+        display: none;
+    }
+}
