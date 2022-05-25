@@ -190,14 +190,14 @@ nav {
 }
 
 .undraw-coder {
-    max-width: 600px;
+    max-width: 450px;
     width: 100%;
 }
 
 .undraw-coder-2 {
     margin-top: 60px;
     margin-bottom: 60px;
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     padding-bottom: 32px;
 }
@@ -278,7 +278,7 @@ nav {
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
   }
@@ -333,7 +333,7 @@ nav {
   }
   
   .project__description--title {
-    font-size: 40px;
+    font-size: 32px;
   }
   
   .project__description--para {
