@@ -218,11 +218,6 @@ nav {
     transition: 300ms ease-in-out;
 }
 
-.jest__img {
-    max-width: 110px;
-    width: 100%;
-}
-
 .language-img:hover {
     transform: scale(0.90);
     opacity: 60%;
